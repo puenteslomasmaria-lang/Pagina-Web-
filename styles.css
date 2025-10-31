@@ -1,0 +1,149 @@
+body{
+    font-family:  Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color: mediumorchid;
+}
+
+body header{
+    
+    text-align: center;
+    background-color: rgb(118, 48, 136);
+    color:#d649ac;
+    padding: 30px 16;
+    font-size: 20px;
+    text-shadow: 3px 2px 5px rgb(91, 24, 100)
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #bb288a;
+    padding: 10px;
+}
+
+nav ul{
+    text-align: center;
+    list-style: none;
+    margin: 2;
+    padding: 1;
+    display: flex;
+    gap: 24px;
+}
+
+nav ul li{
+    text-align: center;
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #1b062e;
+    font-weight:bold ;
+    transition: color 0.4s;
+}
+nav ul  li a:hover{
+    color: rgb(230, 232, 241);
+}
+
+nav form{
+    display: flex;
+    gap: 6px;
+}
+nav input[type="search"]{
+    
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+
+}
+
+nav input[type="submit"]{
+    
+    background-color: #773777;
+    color:#906cd3;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 12px;
+    cursor: pointer;
+
+}
+
+nav input [type="submit"]:hover{
+    background-color: #801071;
+}
+
+main{
+    
+    display: flex;
+    margin: 15px;
+    gap: 18px;
+}
+article{
+    
+    text-align:center ;
+    flex:3;
+    background-color: rgb(222, 103, 252);
+    padding: 22px;
+    border: 5px solid black;
+    border-radius: 18px;
+}
+article ul{
+    list-style-type: none;
+}
+article ul li{
+    font-family: Times, serif;
+}
+
+article h2{
+    text-align: center;
+    font-size: 26px;
+    color: #c91b80;
+}
+article h3{
+    text-align: center;
+    color: #883daa;
+    margin-top: 19px;
+}
+article h4{
+    text-align:unset ;
+    color: #ad17bb;
+}
+aside{
+    
+    flex: 1;
+    background-color: rgb(163, 96, 180);
+    padding: 20px;
+    border-radius: 15px;
+    color: rgba(137, 45, 160, 0.555);
+}
+aside h2{
+    color:rgb(59, 10, 82);
+}
+aside ul{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      list-style:disc;
+      padding-left: 25px;
+   
+}
+ p {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+}
+aside ul li a{
+    text-decoration:none;
+    color: black
+}
+aside ul li a:hover{
+    color: black;
+}
+
+footer{
+    background-color: mediumorchid;
+  color:white;
+    text-align: center;
+    padding: 13px;
+    margin-top: 22px;
+    font-size: 17px;
+}
